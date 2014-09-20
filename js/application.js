@@ -8,3 +8,4 @@
 //= require modernizr.js
 //= require slider.js
 //= require add.js
+//= require find.js
