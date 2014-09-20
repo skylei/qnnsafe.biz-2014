@@ -1,0 +1,10 @@
+//= require jquery-1.9.1.js
+//= require greensock.js
+//= require layerslider.transitions.js
+//= require layerslider.kreaturamedia.jquery.js
+//= require grove-slider.js
+//= require magnific-popup.min.js
+//= require bootstrap.js
+//= require modernizr.js
+//= require slider.js
+//= require add.js
