@@ -1,0 +1,22 @@
+---
+layout: pages
+permalink: /360-panoramas/
+title: 总部工厂360实景
+---
+            <div class="col-sm-12">
+                <div id="360-panoramas">
+					<div id="pano"></div>
+                </div>
+                <script>
+                $('#pano').embedpano({
+					swf: '/assets/swf/qnnpano.swf'
+					xml: '/assets/xml/virtual_tour.xml'
+					target: 'pano'
+					html5: 'auto'
+					passQueryParameters: true
+                })
+                </script>
+            </div>
+        </div>
+    </div>
+    </div>

@@ -1,0 +1,31 @@
+url: http://www.qnnsafe.biz
+
+title: 全能保险柜
+
+keywords: 全能保险柜
+
+description: 全能保险柜。
+
+permalink: /products/:title.html
+
+relative_permalinks: false
+
+include:
+  - .htaccess
+
+exclude:
+  - README.md
+  - css
+  - js
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - js
+    - css
+  js_compressor: uglifier
+  css_compressor: sass
+  cache: true
+  cache_assets: true
+  gzip: []

@@ -1,0 +1,10 @@
+---
+layout: nil
+---
+User-agent: *
+Disallow: /assets/
+Disallow: /images/
+Disallow: /Error.html
+Disallow: /favicon.ico
+
+Sitemap: {{ site.url }}/Sitemap.xml

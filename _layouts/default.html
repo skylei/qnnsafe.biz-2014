@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>{% if page.full_title %}{{ page.full_title }}{% else %}{% if page.title %}{{ page.title }}-{% endif %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta name="viewport" content="width=device-width">
+    {% stylesheet application %}
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="/assets/ie8.css">
+        <script src="/assets/html5-3.6-respond-1.1.0.min.js"></script>
+    <![endif]-->
+    {% javascript application %}
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default grove-navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="grove-toggle" data-toggle="collapse" data-target=".grove-nav">   <i class="glyphicons show_lines"></i>  </a>
+                    <a href="{{ site.url }}" class="navbar-brand"><img src="/images/assets/qnnsafe-logo.png" alt="全能保险柜" width="295" height="45"></a>
+                </div>
+
+                <div class="collapse navbar-collapse grove-nav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{ site.url }}"><b>首页</b></a></li>
+                        <li class="dropdown hover-dropdown"><a href="{{ site.url }}/about/"><b>全能简介</b></a></li>
+                        <li class="dropdown hover-dropdown"><a href="{{ site.url }}/products/"><b>产品中心</b></a></li>
+                        <li class="dropdown hover-dropdown"><a href="{{ site.url }}/stores/"><b>专卖店风采</b></a></li>
+                        <li class="dropdown hover-dropdown"><a href="{{ site.url }}/360-panoramas/"><b>总部工厂360实景</b></a></li>
+                        <li class="dropdown hover-dropdown"><a href="{{ site.url }}/contact/"><b>联系我们</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    {{ content }}
+    <footer class="widewrapper footer">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-sm-3">
+                    <div class="indent30">
+                    <h4><b>产品分类</b></h4>
+                    <ul class="grove-list">
+                        <li><a href="{{ site.url }}/bgwj/"><b>办公文具</b></a></li>
+                        <li><a href="{{ site.url }}/"><b>书写修正工具</b></a></li>
+                        <li><a href="{{ site.url }}/"><b>薄本类</b></a></li>
+                        <li><a href="{{ site.url }}/"><b>办公用纸类</b></a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="indent30">
+                    <h4><b>产品分类</b></h4>
+                    <ul class="grove-list">
+                        <li><a href="{{ site.url }}/"><b>电脑配件</b></a></li>
+                        <li><a href="{{ site.url }}/"><b>商务节庆礼品</b></a></li>
+                        <li><a href="{{ site.url }}/"><b>教学用品</b></a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="indent30">
+                    <h4><b>产品分类</b></h4>
+                    <ul class="grove-list">
+                        <li><a href="{{ site.url }}/"><b>副食品</b></a></li>
+                        <li><a href="{{ site.url }}/"><b>生活用品</b></a></li>
+                        <li><a href="{{ site.url }}/"><b>玩具精品</b></a></li>                  
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <h4><b>联系方式</b></h4>
+                    <ul class="grove-list">
+                        <li><b>招商财富热线：4006-020-198</b></li>
+                        <li><b>质量监督热线：0757-29265775</b></li>
+                        <li><b>传真：0757-29265237</b></li>
+                    </ul>
+                    <br>
+                    <h4><b>在线客服</b></h4>
+                    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=356500757&amp;site=qq&amp;menu=yes" target="_blank"><img title="请咨询我" alt="请咨询我" src="http://wpa.qq.com/pa?p=2:356500757:41" border="0"></a>&nbsp;&nbsp;<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=929209398&amp;site=qq&amp;menu=yes" target="_blank"><img title="请咨询我" alt="请咨询我" src="http://wpa.qq.com/pa?p=2:929209398:41" border="0"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <p>© 1999-2014 广东安能保险柜制造有限公司 <a href="{{ site.url }}/Sitemap.xml" target="_blank">Sitemap</a></p>
+                <p>网站建设与维护：<a href="http://osw.cc" target="_blank">OSW</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
