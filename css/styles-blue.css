@@ -505,7 +505,7 @@ label {
     background-image: -webkit-linear-gradient(top, #7694a7, 0%, #587588, 100%);
     background-image: -moz-linear-gradient(top, #7694a7 0%, #587588 100%);
     background-image: linear-gradient(to bottom, #7694a7 0%, #587588 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff7694a7', endColorstr='#ff587588', GradientType=0);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7694a7', endColorstr='#ff587588', GradientType=0);
     background-repeat: repeat-x;
     border-color: #547082;
     border: none;
@@ -2394,22 +2394,22 @@ img.mfp-img {
     .newslider-minimal .sliderkit-panel {
         width: 320px;
     }
-    /*ul.nav {
+  /*ul.nav {
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
-}
-ul.nav li {
+  }
+  ul.nav li {
   float: left;
   width: 33.3%;
   margin-top: 3px;
   margin-right: -1px;
-}
-ul.nav li a {
+  }
+  ul.nav li a {
   border-left: 1px solid rgba(9, 9, 9, 0.125);
-}
-@include no_select;
-ul.nav li:first-child {
+  }
+  @include no_select;
+  ul.nav li:first-child {
   display: block;
   float: none;
   width: 100%;
@@ -2417,13 +2417,14 @@ ul.nav li:first-child {
   border-left: 1px solid rgba(9, 9, 9, 0.125);
   border-right: 1px solid rgba(9, 9, 9, 0.125);
   margin-top: 0;
-}
-ul.nav li:first-child a {
+  }
+  ul.nav li:first-child a {
   border-left: 0;
-}
-ul.nav li:last-child {
+  }
+  ul.nav li:last-child {
   border-radius: 0;
-}*/
+  }*/
+
 }
 /* LayerSlider Grove Skin */
 
