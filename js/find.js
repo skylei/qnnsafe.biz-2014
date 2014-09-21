@@ -28,5 +28,16 @@ $(function () {
         a.preventDefault();
         var b = $(this).parents(".itemfilter-item").find(".collapsible");
         b.hasClass("collapsed") ? ($(this).text("隐藏"), b.removeClass("collapsed")) : ($(this).text("更多"), b.addClass("collapsed"))
-    })
+    });
+
+    $('#product_details .cc .image').delay(500).animate({ right: "+=50", opacity: 1  }, 200);
+    $('#product_details .cc .title').animate({ left: "-=50", opacity: 1  }, 200);
+    $('#product_details .cc').hover(
+        function () {
+            $(this).find('.hover').removeClass('hidden')
+        },
+        function () {
+            $(this).find('.hover').addClass('hidden')
+        }
+    );
 })
