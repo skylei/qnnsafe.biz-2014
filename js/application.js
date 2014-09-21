@@ -7,5 +7,6 @@
 //= require bootstrap.js
 //= require modernizr.js
 //= require slider.js
+//= require isotope.pkgd.min.js
 //= require add.js
 //= require find.js
