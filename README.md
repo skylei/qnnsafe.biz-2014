@@ -34,3 +34,9 @@ qnnsafe.biz-2014
 2. 进入源码根目录: ``cd qnnsafe.biz-2014``
 
 3. 生成网站: ``jekyll build``
+
+
+开发者
+---------
+
+* Zack Wong &lt;hzzzoo@126.com&gt;
